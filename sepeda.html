@@ -1,195 +1,196 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aturan Bersepeda di Jepang - Kumiai NTIC</title>
-    <style>
-        :root {
-            --primary-color: #1e3a8a;
-            --secondary-color: #0284c7;
-            --accent-color: #ef4444;
-            --text-color: #334155;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aturan Bersepeda di Jepang - Kumiai NTIC</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #0284c7;
+            --accent-color: #ef4444;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+        }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            padding: 20px;
-        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: var(--card-bg);
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
 
-        header {
-            text-align: center;
-            border-bottom: 3px solid var(--primary-color);
-            padding-bottom: 20px;
-            margin-bottom: 25px;
-        }
+        header {
+            text-align: center;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
 
-        h1 {
-            color: var(--primary-color);
-            font-size: 1.6rem;
-            margin-bottom: 8px;
-        }
+        h1 {
+            color: var(--primary-color);
+            font-size: 1.6rem;
+            margin-bottom: 8px;
+        }
 
-        .subtitle {
-            color: var(--secondary-color);
-            font-weight: 600;
-            font-size: 1rem;
-        }
+        .subtitle {
+            color: var(--secondary-color);
+            font-weight: 600;
+            font-size: 1rem;
+        }
 
-        h2 {
-            color: var(--primary-color);
-            font-size: 1.3rem;
-            margin: 25px 0 15px 0;
-            border-left: 4px solid var(--secondary-color);
-            padding-left: 10px;
-        }
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin: 25px 0 15px 0;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 10px;
+        }
 
-        p {
-            margin-bottom: 15px;
-            text-align: justify;
-        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
 
-        ul {
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
 
-        li {
-            margin-bottom: 12px;
-        }
+        li {
+            margin-bottom: 12px;
+        }
 
-        .danger-box {
-            background-color: #fef2f2;
-            border-left: 4px solid var(--accent-color);
-            padding: 15px;
-            border-radius: 4px;
-            margin: 20px 0;
-        }
+        .danger-box {
+            background-color: #fef2f2;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
 
-        .info-box {
-            background-color: #f0fdf4;
-            border-left: 4px solid #22c55e;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 20px 0;
-        }
+        .info-box {
+            background-color: #f0fdf4;
+            border-left: 4px solid #22c55e;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
 
-        .rule-item {
-            font-weight: bold;
-            color: #1e293b;
-        }
+        .rule-item {
+            font-weight: bold;
+            color: #1e293b;
+        }
 
-        .fine-text {
-            color: var(--accent-color);
-            font-weight: bold;
-        }
+        .fine-text {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
 
-        .btn-back {
-            display: inline-block;
-            color: var(--text-color);
-            text-decoration: none;
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
+        .btn-back {
+            display: inline-block;
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
 
-        .btn-back:hover {
-            color: var(--primary-color);
-        }
+        .btn-back:hover {
+            color: var(--primary-color);
+        }
 
-        /* Gaya untuk gambar di awal konten */
-        .content-image {
-        width: 100%;
-        max-height: none; /* Hilangkan batasan tinggi */
-        height: auto;     /* Tinggi otomatis mengikuti proporsi asli gambar */
-        object-fit: contain;
-        border-radius: 8px;
-        margin-bottom: 20px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #e2e8f0;
-            font-size: 0.9rem;
-            color: #64748b;
-        }
-    </style>
+        /* Gaya untuk gambar di awal konten agar tidak terpotong */
+        .content-image {
+            width: 100%;
+            max-height: none; 
+            height: auto;     
+            object-fit: contain;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+    </style>
 </head>
 <body>
 
 <div class="container">
-    <a href="index.html" class="btn-back">← Kembali ke Beranda</a>
+    <a href="index.html" class="btn-back">← Kembali ke Beranda</a>
 
-    <header>
-        <h1>🚲 Aturan Bersepeda & Keselamatan Jalan Raya</h1>
-        <p class="subtitle">Panduan Hukum Keamanan Bersepeda bagi Peserta Magang Kumiai NTIC</p>
-    </header>
+    <header>
+        <h1>🚲 Aturan Bersepeda & Keselamatan Jalan Raya</h1>
+        <p class="subtitle">Panduan Hukum Keamanan Bersepeda bagi Peserta Magang Kumiai NTIC</p>
+    </header>
 
-    <section>
-        <!-- GAMBAR DITAMBAHKAN DI SINI -->
-        <img src="pamflet.jpg" alt="Aturan Pesepeda terbaru" class="content-image">
+    <section>
+        <!-- Infografis resmi kepolisian -->
+        <img src="pamflet.jpg" alt="Aturan Pesepeda terbaru" class="content-image">
 
-        <p>Di Jepang, sepeda telah dikategorikan sebagai kendaraan di bawah Undang-Undang Lalu Lintas. Dalam beberapa tahun terakhir, peraturan untuk pengendara sepeda semakin diperketat. Anda dapat didenda bila melanggar aturan lalu lintas, terlebih Anda akan meninggalkan catatan pelanggaran yang dapat memengaruhi perpanjangan visa Anda.</p>
-    </section>
+        <p>Di Jepang, sepeda telah dikategorikan sebagai kendaraan di bawah Undang-Undang Lalu Lintas. Dalam beberapa tahun terakhir, peraturan untuk pengendara sepeda semakin diperketat. Anda dapat didenda bila melanggar aturan lalu lintas, terlebih Anda akan meninggalkan catatan pelanggaran yang dapat memengaruhi perpanjangan visa Anda.</p>
+    </section>
 
-    <section class="danger-box">
-        <strong>🚨 Larangan Keras & Denda Hukum Lalu Lintas:</strong>
-        <p style="margin-top: 5px; margin-bottom: 10px;">Pastikan Anda menghindari pelanggaran berikut saat berangkat kerja atau jalan-jalan:</p>
-        <ul>
-            <li><span class="rule-item">Menggunakan HP Saat Bersepeda:</span> Dilarang keras menelpon, melihat peta, atau bermain HP saat sepeda berjalan. <span class="fine-text">(Denda hingga 100.000 Yen / Penjara)</span></li>
-            <li><span class="rule-item">Berboncengan (Futari-nori):</span> Sepeda standar hanya boleh dinaiki oleh 1 orang. Dilarang membonceng teman di belakang. <span class="fine-text">(Denda hingga 20.000 Yen)</span></li>
-            <li><span class="rule-item">Menggunakan Payung (Sashi-kasa):</span> Saat hujan, Anda wajib menggunakan jas hujan (raincoat). Dilarang bersepeda sambil memegang payung karena mengganggu keseimbangan. <span class="fine-text">(Denda hingga 50.000 Yen)</span></li>
-            <li><span class="rule-item">Mendengarkan Musik (Earphone):</span> Dilarang menggunakan earphone atau headphone karena membuat Anda tidak mendengar suara klakson kendaraan atau peringatan sekitar. <span class="fine-text">(Denda hingga 50.000 Yen)</span></li>
-            <li><span class="rule-item">Bersepeda Setelah Minum Alkohol:</span> Sama seperti mobil, bersepeda dalam kondisi mabuk adalah kriminalitas berat. <span class="fine-text">(Denda hingga 1.000.000 Yen / Penjara 5 tahun)</span></li>
-        </ul>
-    </section>
+    <section class="danger-box">
+        <strong>🚨 Larangan Keras & Denda Hukum Lalu Lintas:</strong>
+        <p style="margin-top: 5px; margin-bottom: 10px;">Pastikan Anda menghindari pelanggaran berikut saat berangkat kerja atau jalan-jalan:</p>
+        <ul>
+            <li><span class="rule-item">Menggunakan HP Saat Bersepeda:</span> Dilarang keras menelpon, melihat peta, atau bermain HP saat sepeda berjalan. <span class="fine-text">(Denda hingga 100.000 Yen / Penjara)</span></li>
+            <li><span class="rule-item">Berboncengan (Futari-nori):</span> Sepeda standar hanya boleh dinaiki oleh 1 orang. Dilarang membonceng teman di belakang. <span class="fine-text">(Denda hingga 20.000 Yen)</span></li>
+            <li><span class="rule-item">Menggunakan Payung (Sashi-kasa):</span> Saat hujan, Anda wajib menggunakan jas hujan (raincoat). Dilarang bersepeda sambil memegang payung karena mengganggu keseimbangan. <span class="fine-text">(Denda hingga 50.000 Yen)</span></li>
+            <li><span class="rule-item">Mendengarkan Musik (Earphone):</span> Dilarang menggunakan earphone atau headphone karena membuat Anda tidak mendengar suara klakson kendaraan atau peringatan sekitar. <span class="fine-text">(Denda hingga 50.000 Yen)</span></li>
+            <li><span class="rule-item">Bersepeda Setelah Minum Alkohol:</span> Sama seperti mobil, bersepeda dalam kondisi mabuk adalah kriminalitas berat. <span class="fine-text">(Denda hingga 1.000.000 Yen / Penjara 5 tahun)</span></li>
+        </ul>
+    </section>
 
-    <section>
-        <h2>📌 Kewajiban Penting Pesepeda di Jepang</h2>
-        
-        <h3>1. Wajib Menyalakan Lampu di Malam Hari</h3>
-        <p>Begitu hari mulai gelap, Anda <strong>wajib</strong> menyalakan lampu depan sepeda. Bersepeda tanpa lampu di malam hari sangat berbahaya dan akan langsung dihentikan oleh polisi untuk diperiksa.</p>
+    <section>
+        <h2>📌 Kewajiban Penting Pesepeda di Jepang</h2>
+        
+        <h3>1. Wajib Menyalakan Lampu di Malam Hari</h3>
+        <p>Begitu hari mulai gelap, Anda <strong>wajib</strong> menyalakan lampu depan sepeda. Bersepeda tanpa lampu di malam hari sangat berbahaya dan akan langsung dihentikan oleh polisi untuk diperiksa.</p>
 
-        <h3>2. Aturan Jalur Bersepeda</h3>
-        <p>Secara umum, sepeda harus berjalan di <strong>sebelah kiri jalan raya</strong> (searah dengan mobil). Anda hanya boleh bersepeda di trotoar pejalan kaki jika terdapat rambu khusus yang mengizinkan, dan Anda harus mendahului pejalan kaki dengan kecepatan yang sangat rendah.</p>
+        <h3>2. Aturan Jalur Bersepeda</h3>
+        <p>Secara umum, sepeda harus berjalan di <strong>sebelah kiri jalan raya</strong> (searah dengan mobil). Anda hanya boleh bersepeda di trotoar pejalan kaki jika terdapat rambu khusus yang mengizinkan, dan Anda harus mendahului pejalan kaki dengan kecepatan yang sangat rendah.</p>
 
-        <h3>3. Menggunakan Helm (Sangat Dianjurkan)</h3>
-        <p>Pemerintah Jepang telah mengeluarkan aturan yang mewajibkan seluruh pengguna sepeda untuk berusaha menggunakan helm keselamatan demi melindungi diri dari kecelakaan fatal.</p>
-    </section>
+        <h3>3. Menggunakan Helm (Sangat Dianjurkan)</h3>
+        <p>Pemerintah Jepang telah mengeluarkan aturan yang mewajibkan seluruh pengguna sepeda untuk berusaha menggunakan helm keselamatan demi melindungi diri dari kecelakaan fatal.</p>
+    </section>
 
-    <section class="info-box">
-        <h2>🛠️ Pendaftaran Anti-Maling (Bouhan Toroku) & Asuransi</h2>
-        <p><strong>Jangan Pernah Memakai Sepeda Tanpa Izin:</strong> Meminjam sepeda teman tanpa izin tertulis, atau mengambil sepeda yang tergeletak di pinggir jalan dianggap sebagai <strong>Tindakan Pencurian</strong>. Jika dihentikan polisi, Anda akan ditangkap.</p>
-        <ul>
-            <li><strong>Bouhan Toroku (防犯登録):</strong> Setiap sepeda di Jepang wajib didaftarkan atas nama pemiliknya ke kepolisian setempat. Jika membeli sepeda bekas dari teman, pastikan Anda melakukan proses balik nama di toko sepeda untuk menghindari tuduhan pencurian.</li>
-            <li><strong>Asuransi Sepeda (Jitensha Hoken):</strong> Di banyak wilayah di Jepang, memiliki asuransi sepeda adalah <strong>Kewajiban Hukum</strong>. Asuransi ini melindungi Anda dari biaya ganti rugi yang sangat besar jika Anda menabrak pejalan kaki hingga terluka.</li>
-        </ul>
-    </section>
+    <section class="info-box">
+        <h2>🛠️ Pendaftaran Anti-Maling (Bouhan Toroku) & Asuransi</h2>
+        <p><strong>Jangan Pernah Memakai Sepeda Tanpa Izin:</strong> Meminjam sepeda teman tanpa izin tertulis, atau mengambil sepeda yang tergeletak di pinggir jalan dianggap sebagai <strong>Tindakan Pencurian</strong>. Jika dihentikan polisi, Anda akan ditangkap.</p>
+        <ul>
+            <li><strong>Bouhan Toroku (防犯登録):</strong> Setiap sepeda di Jepang wajib didaftarkan atas nama pemiliknya ke kepolisian setempat. Jika membeli sepeda bekas dari teman, pastikan Anda melakukan proses balik nama di toko sepeda untuk menghindari tuduhan pencurian.</li>
+            <li><strong>Asuransi Sepeda (Jitensha Hoken):</strong> Di banyak wilayah di Jepang, memiliki asuransi sepeda adalah <strong>Kewajiban Hukum</strong>. Asuransi ini melindungi Anda dari biaya ganti rugi yang sangat besar jika Anda menabrak pejalan kaki hingga terluka.</li>
+        </ul>
+    </section>
 
-    <footer>
-        <p>© 2026 ari-ntic. Hak Cipta Dilindungi.</p>
-    </footer>
+    <footer>
+        <p>© 2026 ari-ntic. Hak Cipta Dilindungi.</p>
+    </footer>
 </div>
 
 </body>
