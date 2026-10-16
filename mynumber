@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan My Number Card & Tokurei Encho - Kumiai NTIC</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #0284c7;
+            --accent-color: #f59e0b;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 1.6rem;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: var(--secondary-color);
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin: 25px 0 15px 0;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background-color: #fef3c7;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        .step-card {
+            background-color: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .step-title {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .btn-back {
+            display: inline-block;
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .btn-back:hover {
+            color: var(--primary-color);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="btn-back">← Kembali ke Beranda</a>
+
+    <header>
+        <h1>🪪 Panduan My Number Card & Perpanjangan Sementara</h1>
+        <p class="subtitle">Aturan Pengurusan Tokurei Encho (特例延長期間) bagi Peserta Magang Kumiai NTIC</p>
+    </header>
+
+    <section>
+        <h2>💡 Apa Fungsi Penting My Number Card?</h2>
+        <p>My Number Card adalah kartu identitas resmi (KTP Jepang) Anda. Kartu ini sangat penting digunakan untuk mencetak Surat Domisili (<em>Juminhyo</em>) secara mandiri di mesin fotokopi Konbini (7-Eleven, Lawson, FamilyMart) tanpa harus mengantre di Balai Kota, serta menjadi syarat wajib saat mengurus administrasi Pajak Akhir Tahun (<em>Nenmatsu Chosei</em>).</p>
+    </section>
+
+    <section>
+        <h2>⚠️ Masalah yang Sering Terjadi pada Peserta Magang</h2>
+        <p>Masa berlaku My Number Card Anda <strong>selalu mengikuti tanggal kedaluwarsa Zairyu Card (Visa)</strong>. Ketika Anda sedang memproses perpanjangan visa di Imigrasi, kartu baru sering kali baru selesai setelah masa berlaku kartu lama habis.</p>
+        <p>Jika Zairyu Card lama Anda habis, maka My Number Card Anda akan <strong>otomatis mati (Expired)</strong>. Apabila kartu terlanjur hangus total dan melewati batas waktu, Anda harus membuat ulang dari awal dan dikenakan denda biaya cetak sebesar <strong>1.000 Yen</strong>.</p>
+    </section>
+
+    <section>
+        <h2>🔄 Solusi: Mengurus Perpanjangan Sementara 2 Bulan (Tokurei Encho)</h2>
+        <p>Untuk mencegah kartu hangus secara permanen, Anda wajib datang ke Shiyakusho (Balai Kota) setempat untuk memperpanjang masa berlaku My Number Card secara sementara selama <strong>2 bulan</strong>.</p>
+        
+        <div class="highlight-box">
+            <strong>⏰ Kapan Harus ke Shiyakusho?</strong><br>
+            Anda harus datang dan melapor ke Shiyakusho <strong>SEBELUM</strong> tanggal kedaluwarsa yang tertera pada kartu My Number Anda habis. Jangan ditunda!
+        </div>
+
+        <h3>🎒 Dokumen yang Wajib Dibawa ke Shiyakusho:</h3>
+        <ol>
+            <div class="step-card">
+                <div class="step-title">1. Kartu Fisik</div>
+                <li>Bawa <strong>My Number Card</strong> asli dan <strong>Zairyu Card</strong> lama Anda.</li>
+            </div>
+            <div class="step-card">
+                <div class="step-title">2. Kode PIN 4 Digit</div>
+                <li>Pastikan Anda mengingat kata sandi/PIN 4 digit angka My Number Card yang Anda buat dulu saat pertama kali menerima kartu.</li>
+            </div>
+            <div class="step-card">
+                <div class="step-title">3. Bukti Proses Imigrasi (Pilih Salah Satu)</div>
+                <li><strong>Cap Stempel Fisik:</strong> Tulisan <em>在留資格更新許可申請中</em> di bagian belakang kanan bawah Zairyu Card Anda yang dicap oleh Imigrasi.</li>
+                <li><strong>Bukti Digital (Email):</strong> Tunjukkan layar HP Anda yang berisi <strong>Email Pemberitahuan Terima Berkas (申請受付完了メール)</strong> resmi dari sistem online Imigrasi Jepang jika visa Anda diurus secara online.</li>
+            </div>
+        </ol>
+
+        <div class="step-card" style="background-color: #f0fdf4; border-color: #bbf7d0;">
+            <div class="step-title" style="color: #16a34a;">🔄 Langkah Terakhir Setelah Visa Baru Jadi:</div>
+            <p style="margin-bottom: 0; font-size: 0.95rem;">Setelah proses di Imigrasi selesai dan Anda memegang Zairyu Card baru yang asli (dengan masa berlaku yang sudah panjang), Anda <strong>wajib datang sekali lagi ke Shiyakusho</strong> untuk memperbarui masa berlaku My Number Card secara permanen mengikuti visa baru Anda.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 ari-ntic. Hak Cipta Dilindungi.</p>
+    </footer>
+</div>
+
+</body>
+</html>
