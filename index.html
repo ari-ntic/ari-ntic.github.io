@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Panduan Magang & Kehidupan Jepang – Kumiai NTIC</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --primary-hover: #1d4ed8;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #334155;
+            --text-dark: #0f172a;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .welcome-box {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .welcome-box p {
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
+        @media (min-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin: 0 0 0.75rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card-description {
+            font-size: 0.95rem;
+            margin: 0 0 1.5rem 0;
+            flex-grow: 1;
+        }
+
+        .card-link {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 0.75rem 1rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+            margin-top: auto;
+        }
+
+        .card-link:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .suggestion-box {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-top: 3rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .suggestion-box h2 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.5rem;
+            color: var(--text-dark);
+        }
+
+        .suggestion-box p {
+            margin: 0 0 1.25rem 0;
+            font-size: 0.95rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group textarea {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.75rem;
+            font-family: inherit;
+            font-size: 1rem;
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+        }
+
+        .submit-btn {
+            background-color: #059669;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .submit-btn:hover {
+            background-color: #047857;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.875rem;
+            color: #64748b;
+            border-top: 1px solid var(--border-color);
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🇯🇵 Portal Panduan Magang & Kehidupan Jepang</h1>
+        <p>Kumiai NTIC</p>
+    </header>
+
+    <main>
+        <div class="welcome-box">
+            <p>Selamat datang di pusat informasi dan panduan praktis hidup di Jepang bagi rekan-rekan peserta magang <strong>Kumiai NTIC</strong>. Website ini dirancang untuk membantu Anda memahami aturan hukum, mengurus administrasi tahunan, serta menjalani kehidupan sehari-hari dengan aman, tertib, dan sukses selama berada di Jepang.</p>
+        </div>
+
+        <div class="grid-container">
+            <!-- Topik 1 -->
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">💴 Nenmatsu Chousei & Pajak</h2>
+                    <p class="card-description">Panduan lengkap cara mengurus pengembalian uang pajak tahunan (tax refund), syarat mendaftarkan keluarga di Indonesia (dependen), batas pendapatan terbaru, serta akses ke aplikasi otomatis penerjemah Kartu Keluarga (KK).</p>
+                    <a href="pajak.html" class="card-link">Buka Panduan Pajak</a>
+                </div>
+            </div>
+
+            <!-- Topik 2 -->
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">🚲 Aturan Bersepeda</h2>
+                    <p class="card-description">Pahami hukum wajib bersepeda di Jepang untuk keselamatan berangkat kerja sehari-hari. Mulai dari larangan memakai payung/HP, aturan lampu malam, kewajiban asuransi, hingga pendaftaran nomor kepemilikan (Bouhan Toroku).</p>
+                    <a href="sepeda.html" class="card-link">Buka Panduan Bersepeda</a>
+                </div>
+            </div>
+
+            <!-- Topik 3 -->
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">🗑️ Aturan Membuang Sampah</h2>
+                    <p class="card-description">Panduan praktis cara memilah sampah rumah tangga di apartemen (apato) berdasarkan kategorinya (sampah bakar, tidak bisa dibakar, botol/kaleng) beserta aturan jadwal hari pembuangan resmi daerah.</p>
+                    <a href="sampah.html" class="card-link">Buka Panduan Sampah</a>
+                </div>
+            </div>
+
+            <!-- Topik 4 -->
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">🎣 Aturan Memancing</h2>
+                    <p class="card-description">Mengisi waktu libur dengan menyalurkan hobi memancing secara aman. Ketahui area mana saja yang legal dan dilarang keras (No Fishing Zones), batas ukuran ikan, serta etika menjaga kebersihan lingkungan.</p>
+                    <a href="mancing.html" class="card-link">Buka Panduan Memancing</a>
+                </div>
+            </div>
+
+            <!-- Topik 5 -->
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">🪪 Panduan My Number Card</h2>
+                    <p class="card-description">Mencegah kartu My Number hangus saat Zairyu Card dalam proses perpanjangan di Imigrasi. Pelajari cara mengurus Perpanjangan Sementara 2 Bulan (Tokurei Encho / 特例延長期間) menggunakan cap fisik atau bukti email.</p>
+                    <a href="mynumber.html" class="card-link">Buka Panduan My Number</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kotak Saran -->
+        <div class="suggestion-box">
+            <h2>💬 Kotak Saran & Masukan</h2>
+            <p>Jika ada informasi yang kurang jelas, kesalahan penulisan, atau ada aturan penting lainnya yang ingin ditambahkan di website ini, silakan sampaikan masukan Anda di bawah ini.</p>
+            <form onsubmit="alert('Terima kasih atas saran Anda!'); return false;">
+                <div class="form-group">
+                    <textarea placeholder="Tulis kritik, saran, atau masukan Anda di sini..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Kirim Saran</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portal Panduan Magang Kumiai NTIC. Dijalanankan secara independen untuk kenyamanan bersama.</p>
+    </footer>
+
+</body>
+</html>
